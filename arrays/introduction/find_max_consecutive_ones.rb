@@ -1,3 +1,5 @@
+# @param {Integer[]} nums
+# @return {Integer}
 def find_max_consecutive_ones(nums)
   max_count = 0
   current_count = 0
@@ -12,4 +14,4 @@ def find_max_consecutive_ones(nums)
   max_count = max_count > current_count ? max_count : current_count
 end
 
-p find_max_consecutive_ones([1,1,0,1,1,1]) === 3
+# p find_max_consecutive_ones([1,1,0,1,1,1]) === 3
